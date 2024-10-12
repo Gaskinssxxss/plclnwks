@@ -1,26 +1,39 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MainPage @mousemove="handleMouseMove" :style="parallaxStyle" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainPage from "./views/MainPage.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    MainPage
+  },
+  data() {
+    return {
+      mouseX: 0,
+      mouseY: 0,
+      isLoading: true,
+    }
+  },
+  computed: {
+    parallaxStyle() {
+      const movementX = (this.mouseX - window.innerWidth / 2) / 50;
+      const movementY = (this.mouseY - window.innerHeight / 2) / 50;
+      return {
+        transform: `translate(${movementX}px, ${movementY}px)`
+      };
+    },
+  },
+  methods: {
+    onLoadingComplete() {
+      this.isLoading = false;
+    },
+    handleMouseMove(event) {
+      this.mouseX = event.clientX;
+      this.mouseY = event.clientY;
+    }
+  },
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
