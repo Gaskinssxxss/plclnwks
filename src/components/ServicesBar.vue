@@ -31,6 +31,19 @@
                 </div>
             </div>
             <div class="pt-4">
+                <h1>Artificial Intelligence (Object Detection & Object Classification)
+                </h1>
+                <div class="flex flex-col lg:flex-row justify-between space-y-4 lg:space-y-0">
+                    <h1 class="text-xs sm:text-sm md:text-base border-b-2 border-black">Understanding the visual world
+                        through artificial intelligence is key to creating smart and responsive solutions. Our
+                        Artificial Intelligence services focus on Object Detection and Object Classification
+                        technologies that can recognize and classify objects in real time. With a system that
+                        continuously learns and adapts, we bring automation efficiencies that improve accuracy and
+                        speed, supporting your business in a variety of industries, from security to inventory
+                        management, without limitations.</h1>
+                </div>
+            </div>
+            <div class="pt-4">
                 <h1>Cloud Backup System</h1>
                 <div class="flex flex-col lg:flex-row justify-between space-y-4 lg:space-y-0">
                     <h1 class="text-xs sm:text-sm md:text-base border-b-2 border-black">We In Security starts with

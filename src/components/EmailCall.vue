@@ -23,6 +23,12 @@
                             </tr>
                             <tr>
                                 <td class="border border-gray-300 p-2 flex items-center">
+                                    <input class="w-6 h-6 accent-black" type="checkbox" v-model="ai">
+                                    <span class="mx-2">Artificial Intelligence</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border border-gray-300 p-2 flex items-center">
                                     <input class="w-6 h-6 accent-black" type="checkbox" v-model="cloudBackup">
                                     <span class="mx-2">Cloud Backup System</span>
                                 </td>
@@ -159,6 +165,7 @@ export default {
     data() {
         return {
             bigData: false,
+            ai: false,
             cloudBackup: false,
             cloudArchive: false,
             security: false,
@@ -185,7 +192,7 @@ export default {
                 return;
             }
 
-            if (!this.bigData && !this.cloudArchive && !this.cloudBackup && !this.security && !this.web && !this.mobile && !this.sys && !this.datas && !this.iot) {
+            if (!this.bigData && !this.ai && !this.cloudArchive && !this.cloudBackup && !this.security && !this.web && !this.mobile && !this.sys && !this.datas && !this.iot) {
                 alert("Please select at least one service option.");
                 return;
             }
@@ -200,6 +207,7 @@ export default {
                 email: this.email,
                 contain: this.contain,
                 bigData: this.bigData,
+                ai: this.ai,
                 cloudBackup: this.cloudBackup,
                 cloudArchive: this.cloudArchive,
                 security: this.security,
