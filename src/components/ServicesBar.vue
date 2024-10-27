@@ -20,16 +20,62 @@
             </div>
         </div>
         <div v-if="show" class="font-anton uppercase text-base sm:text-xl md:text-2xl pt-4">
-            <h1>Web Development</h1>
-            <div class="flex flex-col lg:flex-row justify-between space-y-4 lg:space-y-0">
-                <h1 class="text-xs sm:text-sm md:text-base border-b-2 border-black">We build websites with a focus on
-                    performance, reliability, and function without unnecessary
-                    distractions. Every web project we develop embodies the power of the technology working behind the
-                    scenes, with Vue.js and Node.js serving as the solid backbone. There's no excessive ornamentation,
-                    just
-                    efficiency and clarity guiding users swiftly to their goals. Our websites aren't just aesthetic;
-                    they
-                    are brutally functional systems, offering scalability that grows with your business.</h1>
+            <div>
+                <h1>Big Data</h1>
+                <div class="flex flex-col lg:flex-row justify-between space-y-4 lg:space-y-0">
+                    <h1 class="text-xs sm:text-sm md:text-base border-b-2 border-black">We In the age of data abundance,
+                        we see data not just as information, but as an invaluable resource that requires strategy and
+                        deep understanding. Our Big Data services mine, analyze and transform data into insights that
+                        deliver strategic value. With the latest technology, we ensure data is not only stored, but also
+                        amplified with high-precision analytics that empower your business decisions.</h1>
+                </div>
+            </div>
+            <div class="pt-4">
+                <h1>Cloud Backup System</h1>
+                <div class="flex flex-col lg:flex-row justify-between space-y-4 lg:space-y-0">
+                    <h1 class="text-xs sm:text-sm md:text-base border-b-2 border-black">We In Security starts with
+                        preparedness. Our backup services are designed to provide multiple layers of data protection,
+                        ready for any risk and disruption. The backup systems we offer operate without compromise,
+                        providing peace of mind in the face of potential data loss. Every byte of your data is
+                        protected, whenever and wherever it is needed.</h1>
+                </div>
+            </div>
+            <div class="pt-4">
+                <h1>Cloud Archiving System</h1>
+                <div class="flex flex-col lg:flex-row justify-between space-y-4 lg:space-y-0">
+                    <h1 class="text-xs sm:text-sm md:text-base border-b-2 border-black">We In Archiving is more than
+                        just storage-it's how we preserve digital history and ensure information continuity. Our
+                        Archiving System services offer long-term solutions that are secure, efficient and transparent.
+                        With cutting-edge technology, we ensure every valuable document and data remains available and
+                        easily accessible without being eroded by time.</h1>
+                </div>
+            </div>
+            <div class="pt-4">
+                <h1>Cyber Security as a Service</h1>
+                <div class="flex flex-col lg:flex-row justify-between space-y-4 lg:space-y-0">
+                    <h1 class="text-xs sm:text-sm md:text-base border-b-2 border-black">We In Amidst ever-evolving cyber
+                        threats, security is a non-negotiable imperative. Our Cyber Security service protects your
+                        systems and data with a dynamic and layered approach, encompassing end-to-end protection. We
+                        safeguard your digital integrity through active monitoring, real-time threat detection and
+                        proactive protection, ensuring every access is protected and every threat is decisively
+                        addressed.</h1>
+                </div>
+            </div>
+            <div class="pt-4">
+                <h1>Web Development</h1>
+                <div class="flex flex-col lg:flex-row justify-between space-y-4 lg:space-y-0">
+                    <h1 class="text-xs sm:text-sm md:text-base border-b-2 border-black">We build websites with a focus
+                        on
+                        performance, reliability, and function without unnecessary
+                        distractions. Every web project we develop embodies the power of the technology working behind
+                        the
+                        scenes, with Vue.js and Node.js serving as the solid backbone. There's no excessive
+                        ornamentation,
+                        just
+                        efficiency and clarity guiding users swiftly to their goals. Our websites aren't just aesthetic;
+                        they
+                        are brutally functional systems, offering scalability that grows with your business.</h1>
+                </div>
             </div>
             <div class="pt-4">
                 <h1>Mobile Development</h1>
@@ -67,6 +113,26 @@
                     behind the scenes, offering strong control and automation without needing to be flashy. From devices
                     to data, each component operates with brutal precision and strength that directly serves your
                     business needs.</h1>
+            </div>
+            <div class="pt-4">
+                <h1>Robotics</h1>
+                <h1 class="text-xs sm:text-sm md:text-base border-b-2 border-black">A robot lives according to its task,
+                    with programs and functionality embedded in it. With our skills we can create robots that can help
+                    you in all your problem needs.</h1>
+            </div>
+            <div class="pt-4">
+                <h1>3d Modeling</h1>
+                <h1 class="text-xs sm:text-sm md:text-base border-b-2 border-black">The need for 3d models is
+                    increasing, adding to the strength of products that involve 3d modeling. With visual impact being
+                    the benchmark of a product's beauty, injecting elements of 3d modeling into your product greetings
+                    will greatly affect your business prospects.</h1>
+            </div>
+            <div class="pt-4">
+                <h1>Election Survey & Tim management</h1>
+                <h1 class="text-xs sm:text-sm md:text-base border-b-2 border-black">Today's political developments
+                    require political actors to do innovative work to achieve success. The role of survey institutions
+                    and management teams is very influential in assisting political actors in carrying out their
+                    political work.</h1>
             </div>
             <div class="pt-4 sm:pt-10 text-sm sm:text-lg border-b-2 border-gray-300 pb-4 sm:pb-2">
                 <h1>Click The Button <span class="px-1 sm:px-4">

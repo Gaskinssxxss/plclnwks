@@ -17,6 +17,30 @@
                         <tbody>
                             <tr>
                                 <td class="border border-gray-300 p-2 flex items-center">
+                                    <input class="w-6 h-6 accent-black" type="checkbox" v-model="bigData">
+                                    <span class="mx-2">Big Data</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border border-gray-300 p-2 flex items-center">
+                                    <input class="w-6 h-6 accent-black" type="checkbox" v-model="cloudBackup">
+                                    <span class="mx-2">Cloud Backup System</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border border-gray-300 p-2 flex items-center">
+                                    <input class="w-6 h-6 accent-black" type="checkbox" v-model="cloudArchive">
+                                    <span class="mx-2">Cloud Archiving System</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border border-gray-300 p-2 flex items-center">
+                                    <input class="w-6 h-6 accent-black" type="checkbox" v-model="security">
+                                    <span class="mx-2">Cyber Security as a Services</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border border-gray-300 p-2 flex items-center">
                                     <input class="w-6 h-6 accent-black" type="checkbox" v-model="web">
                                     <span class="mx-2">Web Development</span>
                                 </td>
@@ -43,6 +67,24 @@
                                 <td class="border border-gray-300 p-2 flex items-center">
                                     <input class="w-6 h-6" type="checkbox" v-model="iot">
                                     <span class="mx-2">Internet of Things</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border border-gray-300 p-2 flex items-center">
+                                    <input class="w-6 h-6" type="checkbox" v-model="robot">
+                                    <span class="mx-2">Robotics</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border border-gray-300 p-2 flex items-center">
+                                    <input class="w-6 h-6" type="checkbox" v-model="ddd">
+                                    <span class="mx-2">3d Modeling</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border border-gray-300 p-2 flex items-center">
+                                    <input class="w-6 h-6" type="checkbox" v-model="election">
+                                    <span class="mx-2">Election Survey</span>
                                 </td>
                             </tr>
                         </tbody>
@@ -89,7 +131,7 @@
             <div>
                 <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 pt-4">
                     <div class="flex items-start">
-                        <input class="w-10 h-10" type="checkbox" v-model="check">
+                        <input class="w-6 sm:w-10 h-6 sm:h-10" type="checkbox" v-model="check">
                         <h1 class="text-xs md:text-sm mx-2">I consent to my data being used for the purposes of the
                             Declaration, and to my name and reason being used to Cooperate on declarations on this site
                             and throughout product submissions.</h1>
@@ -116,11 +158,18 @@ import emailjs from "emailjs-com";
 export default {
     data() {
         return {
+            bigData: false,
+            cloudBackup: false,
+            cloudArchive: false,
+            security: false,
             web: false,
             mobile: false,
             sys: false,
             datas: false,
             iot: false,
+            robot: false,
+            ddd: false,
+            election: false,
             business: '',
             country: '',
             name: '',
@@ -136,8 +185,8 @@ export default {
                 return;
             }
 
-            if (!this.web && !this.mobile && !this.sys && !this.datas && !this.iot) {
-                alert("Please select at least one service option (Web, Mobile, Sys Analyst, Data Analyst, or IoT).");
+            if (!this.bigData && !this.cloudArchive && !this.cloudBackup && !this.security && !this.web && !this.mobile && !this.sys && !this.datas && !this.iot) {
+                alert("Please select at least one service option.");
                 return;
             }
 
@@ -150,17 +199,25 @@ export default {
                 name: this.name,
                 email: this.email,
                 contain: this.contain,
+                bigData: this.bigData,
+                cloudBackup: this.cloudBackup,
+                cloudArchive: this.cloudArchive,
+                security: this.security,
                 web: this.web,
                 mobile: this.mobile,
                 sys: this.sys,
                 datas: this.datas,
                 iot: this.iot,
+                robot: this.robot,
+                ddd: this.ddd,
+                election: this.election
             };
 
             emailjs.send(serviceID, templateID, templateParams, "-DEFQdHYri_Q8uiHg")
                 .then(response => {
                     alert("Email successfully sent!");
                     console.log(response)
+                    window.location.reload()
                 })
                 .catch(error => {
                     alert("Please Check the Field. Please try again.");

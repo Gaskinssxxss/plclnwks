@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="border-b-2 border-black">
-            <div class="px-4 pt-4 pb-8">
+            <div class="px-4 pt-4 pb-4 md:pb-8">
                 <NavBar />
             </div>
         </div>
