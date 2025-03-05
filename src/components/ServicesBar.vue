@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="pt-4">
-                <h1>Cloud Backup System</h1>
+                <h1>Backup System</h1>
                 <div class="flex flex-col lg:flex-row justify-between space-y-4 lg:space-y-0">
                     <h1 class="text-xs sm:text-sm md:text-base border-b-2 border-black">We In Security starts with
                         preparedness. Our backup services are designed to provide multiple layers of data protection,
@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="pt-4">
-                <h1>Cloud Archiving System</h1>
+                <h1>Archiving System</h1>
                 <div class="flex flex-col lg:flex-row justify-between space-y-4 lg:space-y-0">
                     <h1 class="text-xs sm:text-sm md:text-base border-b-2 border-black">We In Archiving is more than
                         just storage-it's how we preserve digital history and ensure information continuity. Our
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="pt-4">
-                <h1>Cyber Security as a Service</h1>
+                <h1>Cyber Security</h1>
                 <div class="flex flex-col lg:flex-row justify-between space-y-4 lg:space-y-0">
                     <h1 class="text-xs sm:text-sm md:text-base border-b-2 border-black">We In Amidst ever-evolving cyber
                         threats, security is a non-negotiable imperative. Our Cyber Security service protects your
@@ -134,14 +134,7 @@
                     you in all your problem needs.</h1>
             </div>
             <div class="pt-4">
-                <h1>3d Modeling</h1>
-                <h1 class="text-xs sm:text-sm md:text-base border-b-2 border-black">The need for 3d models is
-                    increasing, adding to the strength of products that involve 3d modeling. With visual impact being
-                    the benchmark of a product's beauty, injecting elements of 3d modeling into your product greetings
-                    will greatly affect your business prospects.</h1>
-            </div>
-            <div class="pt-4">
-                <h1>Election Survey & Tim management</h1>
+                <h1>Election Survey</h1>
                 <h1 class="text-xs sm:text-sm md:text-base border-b-2 border-black">Today's political developments
                     require political actors to do innovative work to achieve success. The role of survey institutions
                     and management teams is very influential in assisting political actors in carrying out their

@@ -1,94 +1,89 @@
 <template>
-    <div id="emergency-section" class="flex flex-col 2xl:flex-row justify-between py-6">
+    <div id="emergency-section" class="flex flex-col 2xl:flex-row justify-between py-6 space-x-2">
         <div class="pl-4">
-            <div class="font-anton uppercase text-4xl md:text-8xl">
-                <h1>Declare your emergency to us. Fill all the form, see and wait!</h1>
+            <div class="font-anton uppercase text-4xl md:text-7xl">
+                <h1>Declare your emergency to us. Fill all the form, <span class="text-che bg-black px-4">see and
+                        wait!</span></h1>
             </div>
         </div>
-        <div class="border-2 border-gray-300 p-4 font-anton uppercase max-w-xl bg-black text-gray-300 mt-6 2xl:mt-0">
+        <div class="border-2 border-black p-4 font-anton uppercase max-w-xl bg-white text-black mt-6 2xl:mt-0">
             <div class="text-3xl md:text-4xl">
-                <h1 class="text-che">
+                <h1 class="text-che bg-black p-2">
                     I'm Declaring Emergency!
                 </h1>
             </div>
-            <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 py-6">
+            <div class="py-4">
                 <div>
-                    <table class="border-collapse border border-black w-full">
-                        <tbody>
-                            <tr>
-                                <td class="border border-gray-300 p-2 flex items-center">
+                    <table class="border border-black w-full table-fixed">
+                        <tbody class="grid grid-cols-2 md:grid-cols-3">
+                            <tr class="w-full">
+                                <td class="border border-black p-2 flex items-center w-full">
                                     <input class="w-6 h-6 accent-black" type="checkbox" v-model="bigData">
                                     <span class="mx-2">Big Data</span>
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="border border-gray-300 p-2 flex items-center">
+                            <tr class="w-full">
+                                <td class="border border-black p-2 flex items-center w-full">
                                     <input class="w-6 h-6 accent-black" type="checkbox" v-model="ai">
-                                    <span class="mx-2">Artificial Intelligence</span>
+                                    <span class="mx-2">AI</span>
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="border border-gray-300 p-2 flex items-center">
+                            <tr class="w-full">
+                                <td class="border border-black p-2 flex items-center w-full">
                                     <input class="w-6 h-6 accent-black" type="checkbox" v-model="cloudBackup">
-                                    <span class="mx-2">Cloud Backup System</span>
+                                    <span class="mx-2">Backup System</span>
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="border border-gray-300 p-2 flex items-center">
+                            <tr class="w-full">
+                                <td class="border border-black p-2 flex items-center w-full">
                                     <input class="w-6 h-6 accent-black" type="checkbox" v-model="cloudArchive">
-                                    <span class="mx-2">Cloud Archiving System</span>
+                                    <span class="mx-2">Archiving System</span>
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="border border-gray-300 p-2 flex items-center">
+                            <tr class="w-full">
+                                <td class="border border-black p-2 flex items-center w-full">
                                     <input class="w-6 h-6 accent-black" type="checkbox" v-model="security">
-                                    <span class="mx-2">Cyber Security as a Services</span>
+                                    <span class="mx-2">Cyber Security</span>
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="border border-gray-300 p-2 flex items-center">
+                            <tr class="w-full">
+                                <td class="border border-black p-2 flex items-center w-full">
                                     <input class="w-6 h-6 accent-black" type="checkbox" v-model="web">
-                                    <span class="mx-2">Web Development</span>
+                                    <span class="mx-2">Web Dev</span>
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="border border-gray-300 p-2 flex items-center">
+                            <tr class="w-full">
+                                <td class="border border-black p-2 flex items-center w-full">
                                     <input class="w-6 h-6" type="checkbox" v-model="mobile">
-                                    <span class="mx-2">Mobile Development</span>
+                                    <span class="mx-2">Mobile Dev</span>
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="border border-gray-300 p-2 flex items-center">
+                            <tr class="w-full">
+                                <td class="border border-black p-2 flex items-center w-full">
                                     <input class="w-6 h-6" type="checkbox" v-model="sys">
                                     <span class="mx-2">Sys Analyst</span>
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="border border-gray-300 p-2 flex items-center">
+                            <tr class="w-full">
+                                <td class="border border-black p-2 flex items-center w-full">
                                     <input class="w-6 h-6" type="checkbox" v-model="datas">
                                     <span class="mx-2">Data Analyst</span>
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="border border-gray-300 p-2 flex items-center">
-                                    <input class="w-6 h-6" type="checkbox" v-model="iot">
-                                    <span class="mx-2">Internet of Things</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="border border-gray-300 p-2 flex items-center">
+                            <tr class="w-full">
+                                <td class="border border-black p-2 flex items-center w-full">
                                     <input class="w-6 h-6" type="checkbox" v-model="robot">
                                     <span class="mx-2">Robotics</span>
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="border border-gray-300 p-2 flex items-center">
-                                    <input class="w-6 h-6" type="checkbox" v-model="ddd">
-                                    <span class="mx-2">3d Modeling</span>
+                            <tr class="w-full">
+                                <td class="border border-black p-2 flex items-center w-full">
+                                    <input class="w-6 h-6" type="checkbox" v-model="iot">
+                                    <span class="mx-2">Internet of Things</span>
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="border border-gray-300 p-2 flex items-center">
+                            <tr class="w-full">
+                                <td class="border border-black p-2 flex items-center w-full">
                                     <input class="w-6 h-6" type="checkbox" v-model="election">
                                     <span class="mx-2">Election Survey</span>
                                 </td>
@@ -96,37 +91,42 @@
                         </tbody>
                     </table>
                 </div>
-                <div>
-                    <table class="border-collapse border border-gray-300 w-full">
+                <div class="pt-6">
+                    <table class="border-2 border-black w-full table-fixed">
                         <tbody>
                             <tr>
-                                <td class="border border-gray-300 px-2">Business Name</td>
-                                <td class="border border-gray-300">
-                                    <input class="pl-2 py-2 w-full bg-black text-white" type="text" v-model="business">
+                                <td class="border-2 border-black pl-4 w-1/3">Business Name</td>
+                                <td class="border border-black">
+                                    <input class="pl-2 py-2 w-full min-w-[200px] bg-white text-black" type="text"
+                                        v-model="business">
                                 </td>
                             </tr>
                             <tr>
-                                <td class="border border-gray-300 px-2">Country</td>
-                                <td class="border border-gray-300">
-                                    <input class="pl-2 py-2 w-full bg-black text-white" type="text" v-model="country">
+                                <td class="border-2 border-black pl-4 w-1/3">Country</td>
+                                <td class="border border-black">
+                                    <input class="pl-2 py-2 w-full min-w-[200px] bg-white text-black" type="text"
+                                        v-model="country">
                                 </td>
                             </tr>
                             <tr>
-                                <td class="border border-gray-300 px-2">Full Name</td>
-                                <td class="border border-gray-300">
-                                    <input class="pl-2 py-2 w-full bg-black text-white" type="text" v-model="name">
+                                <td class="border-2 border-black pl-4 w-1/3">Full Name</td>
+                                <td class="border border-black">
+                                    <input class="pl-2 py-2 w-full min-w-[200px] bg-white text-black" type="text"
+                                        v-model="name">
                                 </td>
                             </tr>
                             <tr>
-                                <td class="border border-gray-300 px-2">Email</td>
-                                <td class="border border-gray-300">
-                                    <input class="pl-2 py-2 w-full bg-black text-white" type="email" v-model="email">
+                                <td class="border-2 border-black pl-4 w-1/3">Email</td>
+                                <td class="border border-black">
+                                    <input class="pl-2 py-2 w-full min-w-[200px] bg-white text-black" type="email"
+                                        v-model="email">
                                 </td>
                             </tr>
                             <tr>
-                                <td class="border border-gray-300 px-2">Tell Us</td>
-                                <td class="border border-gray-300">
-                                    <textarea class="pl-2 w-full h-24 bg-black text-white pb-2 text-xs tracking-wider"
+                                <td class="border-2 border-black pl-4 w-1/3">Tell Us</td>
+                                <td class="border border-black">
+                                    <textarea
+                                        class="pl-2 w-full min-w-[200px] h-24 bg-white text-black pb-2 text-xs tracking-wider"
                                         v-model="contain"></textarea>
                                 </td>
                             </tr>
@@ -144,8 +144,8 @@
                     </div>
                 </div>
             </div>
-            <div class="py-4 flex justify-end text-3xl">
-                <button class="bg-gray-300 rounded-lg" @click="sendEmail">
+            <div class="pt-4 flex justify-end text-3xl">
+                <button class="bg-black rounded-lg" @click="sendEmail">
                     <div
                         class="text-start text-black bg-che transition-transform duration-300 ease-linear transform -translate-x-1 -translate-y-1 hover:-translate-x-0 hover:-translate-y-0 rounded-lg border-2 border-black p-2">
                         <h1>
@@ -254,7 +254,7 @@ input[type="checkbox"]:checked {
                 <h1>Declare ur emergency to us. Fill all the form, see n waiting!</h1>
             </div>
         </div>
-        <div class="border-2 border-gray-300 p-4 font-anton uppercase max-w-xl bg-black text-gray-300">
+        <div class="border-2 border-gray-300 p-4 font-anton uppercase max-w-xl bg-white text-gray-300">
             <div class="text-4xl">
                 <h1 class="text-che">
                     I'm Decalring Emergency!

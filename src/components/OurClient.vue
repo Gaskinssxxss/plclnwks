@@ -20,7 +20,7 @@
             </div>
         </div>
         <div v-if="show" class="font-anton uppercase text-base sm:text-xl md:text-2xl">
-            <div class="space-y-4 sm:space-y-8 2xl:space-y-4 pt-4 flex flex-col 2xl:flex-row justify-between">
+            <div class="space-y-4 sm:space-y-8 2xl:space-y-4 pt-4 grid grid-cols-1 sm:grid-cols-3">
                 <div class="flex items-center space-x-2 border-b-2 border-black">
                     <img class="max-w-16 max-h-16 lg:max-w-20 lg:max-h-20 grayscale" src="../assets/bombs-2.png" alt="">
                     <div>
@@ -33,17 +33,23 @@
                         <h1>Online Travel Agent Booking System</h1>
                     </div>
                 </div>
-                <div class="flex items-center space-x-2 border-b-2 border-black">
+                <div class="flex items-center space-x-2 border-b-2 border-black pb-4 sm:pb-0">
                     <img class="max-w-16 max-h-16 lg:max-w-20 lg:max-h-20 grayscale" src="../assets/dnk.png" alt="">
                     <div>
                         <h1>News Portal System</h1>
                     </div>
                 </div>
-                <div class="flex items-center space-x-2 border-b-2 border-black">
+                <div class="flex items-center space-x-2 border-b-2 border-black pb-4 sm:pb-0">
                     <img class="max-w-16 max-h-16 lg:max-w-20 lg:max-h-20 grayscale" src="../assets/bimakita.png"
                         alt="">
                     <div>
                         <h1>News Portal System</h1>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-2 border-b-2 border-black">
+                    <img class="max-w-16 max-h-16 lg:max-w-20 lg:max-h-20 grayscale" src="../assets/lpkni.png" alt="">
+                    <div>
+                        <h1>Lembaga Perlindungan Konsumen nasional indonesia</h1>
                     </div>
                 </div>
             </div>
