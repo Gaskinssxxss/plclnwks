@@ -34,6 +34,8 @@ module.exports = {
         rubik: "Rubik Mono One",
         anton: "Anton SC",
         cough: "Courier Prime",
+        sains: "Saira Condensed",
+        roboto: "Roboto Condensed",
       },
       margin: {
         85: "480px",
@@ -68,6 +70,7 @@ module.exports = {
       },
     },
     screens: {
+      iphone14: "430px",
       "iphone-11-pro": { raw: "(min-width: 375px) and (max-width: 376px)" },
       siomi: { raw: "(min-width: 374px) and (max-width: 500px)" },
       sm: "640px",
