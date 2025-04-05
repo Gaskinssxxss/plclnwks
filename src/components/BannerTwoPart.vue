@@ -34,10 +34,10 @@
               class="pt-0 sm:pt-2 text-sm md:text-base font-sans font-medium text-justify leading-relaxed"
             >
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                provident corporis voluptatibus aspernatur ipsa perspiciatis?
-                Itaque sapiente, illum maiores ex impedit ad libero laborum
-                expedita temporibus deleniti ut animi sunt.
+                Menjadi perusahaan terdepan dalam penyediaan solusi teknologi
+                dengan sistem arsitektur yang tangguh dan keamanan data
+                berstandar tinggi untuk mendukung kepercayaan dan keberlanjutan
+                digital di berbagai sektor industri.
               </p>
             </div>
           </div>
@@ -46,7 +46,7 @@
           <img
             src="@/assets/linux.jpg"
             alt="linux"
-            class="w-full h-[250px] md:h-full object-cover rounded-xl md:rounded-none"
+            class="w-full h-[250px] md:h-full object-cover rounded-b-none sm:rounded-xl md:rounded-none"
           />
         </div>
       </div>

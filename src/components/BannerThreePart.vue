@@ -12,7 +12,7 @@
           <img
             src="@/assets/server.jpg"
             alt="server"
-            class="w-full h-[250px] md:h-full object-cover rounded-xl sm:rounded-none"
+            class="w-full h-[250px] md:h-full object-cover rounded-none"
           />
         </div>
 
@@ -71,7 +71,7 @@
             <img
               src="@/assets/server.jpg"
               alt="server"
-              class="w-full h-[250px] md:h-full object-cover rounded-xl sm:rounded-none"
+              class="w-full h-[250px] md:h-full object-cover rounded-b-none sm:rounded-xl md:rounded-none"
             />
           </div>
         </div>
@@ -92,22 +92,20 @@ export default {
   data() {
     return {
       texts: [
-        `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-        provident corporis voluptatibus aspernatur ipsa perspiciatis?
-        Itaque sapiente, illum maiores ex impedit ad libero laborum
-        expedita temporibus deleniti ut animi sunt.`,
-        `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-        provident corporis voluptatibus aspernatur ipsa perspiciatis?
-        Itaque sapiente, illum maiores ex impedit ad libero laborum
-        expedita temporibus deleniti ut animi sunt.`,
-        `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-        provident corporis voluptatibus aspernatur ipsa perspiciatis?
-        Itaque sapiente, illum maiores ex impedit ad libero laborum
-        expedita temporibus deleniti ut animi sunt.`,
-        `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-        provident corporis voluptatibus aspernatur ipsa perspiciatis?
-        Itaque sapiente, illum maiores ex impedit ad libero laborum
-        expedita temporibus deleniti ut animi sunt.`,
+        `Mengembangkan sistem yang kuat dan andal dengan
+arsitektur berstandar internasional untuk menjamin
+kestabilan layanan.`,
+        `Menyediakan solusi keamanan data yang adaptif dan
+proaktif terhadap ancaman siber yang terus berkembang.`,
+        `Melindungi privasi dan integritas data pengguna melalui
+enkripsi, autentikasi berlapis, serta kebijakan manajemen
+data yang ketat.`,
+        `Membangun budaya sadar keamanan siber di kalangan
+klien dan mitra melalui pelatihan, sosialisasi, dan tools
+yang mudah diakses.`,
+        `Berinovasi secara berkelanjutan dalam pengembangan
+teknologi keamanan dan sistem resilien yang mendukung
+transformasi digital yang aman.`,
       ],
     };
   },

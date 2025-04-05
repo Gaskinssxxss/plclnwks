@@ -28,13 +28,15 @@
     </div>
   </div>
   <div class="flex flex-col 2xl:flex-row justify-between space-x-2">
-    <div class="pl-4 flex items-start pt-2 sm:pt-10">
+    <div class="pl-4 flex items-start pt-2 sm:pr-10">
       <div class="font-anton uppercase text-4xl md:text-4xl">
-        <h1>
-          " WHEN ANARCHY MEETS FUNCTION, BOLDNESS BECOMES AESTHETIC. WE DON'T
-          CONFORM TO THE RULES OF FORM, BUT BUILD STRENGTH FROM IMPERFECTION,
-          CREATING SYSTEMS THAT ARE RAW, HONEST, AND POWERFUL. "
-        </h1>
+        <div class="bg-black">
+          <h1 class="text-che p-4">
+            " WHEN ANARCHY MEETS FUNCTION, BOLDNESS BECOMES AESTHETIC. WE DON'T
+            CONFORM TO THE RULES OF FORM, BUT BUILD STRENGTH FROM IMPERFECTION,
+            CREATING SYSTEMS THAT ARE RAW, HONEST, AND POWERFUL. "
+          </h1>
+        </div>
         <div class="text-xl font-roboto font-extrabold pt-10">
           <h1 class="text-xl font-normal capitalize">
             Hubungi Kami lewat link dibawah ini!

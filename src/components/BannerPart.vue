@@ -43,24 +43,20 @@
               class="pt-4 md:pt-6 flex flex-col md:flex-row gap-4 md:gap-8 text-sm md:text-base lg:text-lg font-sans text-justify"
             >
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Placeat, reiciendis molestias totam amet magnam quasi. Quos nam
-                impedit deleniti, dolorum quis rem placeat provident. Labore
-                reiciendis aliquam dolores atque exercitationem. Vel fugit
-                veniam dolor molestiae est iste reiciendis laborum odio
-                perferendis facere, ratione eaque asperiores? Veniam eaque error
-                consectetur dolores tempore nam velit adipisci cupiditate. Quae
-                impedit molestiae nisi maiores!
+                Pollacheial Network Tech adalah perusahaan teknologi yang
+                berfokus pada penyediaan solusi data yang aman dan andal bagi
+                bisnis. Fokus utama kami adalah big data, backup, dan keamanan
+                siber, dengan misi untuk menyederhanakan yang rumit dan
+                melindungi yang rentan.
               </p>
               <p class="hidden sm:block">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Placeat, reiciendis molestias totam amet magnam quasi. Quos nam
-                impedit deleniti, dolorum quis rem placeat provident. Labore
-                reiciendis aliquam dolores atque exercitationem. Vel fugit
-                veniam dolor molestiae est iste reiciendis laborum odio
-                perferendis facere, ratione eaque asperiores? Veniam eaque error
-                consectetur dolores tempore nam velit adipisci cupiditate. Quae
-                impedit molestiae nisi maiores!
+                Kami hadir sebagai mitra strategis bagi institusi, perusahaan,
+                dan organisasi yang ingin bertransformasi secara digital tanpa
+                mengorbankan keamanan dan ketangguhan sistem. Dengan pendekatan
+                yang berorientasi pada teknologi canggih dan kebutuhan spesifik
+                klien, kami menghadirkan layanan terintegrasi mulai dari
+                perlindungan data, perencanaan arsitektur sistem, hingga
+                pemulihan bencana berbasis cloud dan AI.
               </p>
             </div>
           </div>

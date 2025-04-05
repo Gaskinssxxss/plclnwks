@@ -3,7 +3,7 @@
     <div>
       <Navi />
     </div>
-    <div class="pb-26" id="about">
+    <div class="pb-16" id="about">
       <Banner />
     </div>
     <div id="visi">
