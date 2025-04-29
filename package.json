@@ -9,10 +9,12 @@
   },
   "dependencies": {
     "@splidejs/vue-splide": "^0.6.12",
+    "axios": "^1.9.0",
     "core-js": "^3.8.3",
     "d3": "^7.9.0",
     "emailjs-com": "^3.2.0",
     "gsap": "^3.12.7",
+    "mammoth": "^1.9.0",
     "vue": "^3.2.13"
   },
   "devDependencies": {
